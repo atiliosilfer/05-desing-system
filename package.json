@@ -6,5 +6,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atiliosilfer/05-desing-system.git"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.14"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   }
 }
