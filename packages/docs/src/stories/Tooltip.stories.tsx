@@ -8,6 +8,13 @@ export default {
     children: <Button>Send</Button>,
     description: 'Description',
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<TooltipProps>
 
 export const Primary: StoryObj<TooltipProps> = {}
